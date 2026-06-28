@@ -1,0 +1,10 @@
+from django.apps import AppConfig
+
+
+class App1Config(AppConfig):
+    name = 'app1'
+from django.apps import AppConfig
+
+class SubCategory4Config(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'SubCategory4'
