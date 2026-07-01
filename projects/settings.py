@@ -39,18 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'app1',
-    'categories',
-    'sub_categories',
-    'products4',
-    'subcategory4',
-    'category2',
+     'sub_category',
     'rest_framework.authtoken',
     'category',
-    'category4',
-    'category3',
     'product',
-    'products2',
-    'products',
+    
     
     
 ]

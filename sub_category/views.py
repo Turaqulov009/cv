@@ -1,9 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import SubCategories
-from .serialezers import SubCategoriesSerializer
+from .models import SubCategory
+from .serializers import SubCategorySerializer
 
-# Create your views here.
 
 class SubCategoryViewSet(viewsets.ModelViewSet):
     queryset = SubCategory.objects.all()
